@@ -40,7 +40,7 @@ class Module implements AutoloaderProviderInterface
 
         return array(
             'invokables' => array(
-                'mvlabs.phpexcel.service' => 'MvlabsPHPExcel\Service\MvlabsPHPExcel',
+                'mvlabs.phpexcel.service' => 'MvlabsPHPExcel\Service\PhpExcelService',
             ),
         );
     }
