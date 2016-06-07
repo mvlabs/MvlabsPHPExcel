@@ -1,0 +1,39 @@
+{
+    "name": "mvlabs/mvlabs-phpexcel",
+    "description": "MvlabsPHPExcel is a ZF2 module that allow easy to create, modify and read excel files (including pdf, xlsx, odt) using PHPOffice/PHPExcel library.",
+    "license": "MIT",
+    "type": "zf2-module",
+    "keywords": [
+        "PHPExcel",
+        "PHPOffice",
+        "excel",
+        "xls",
+        "office",
+        "php-excel", 
+        "snapshot", 
+        "MvaAssociati", 
+        "MvLabs", 
+        "zf2"
+    ],
+    "homepage": "https://github.com/mvlabs/MvlabsPHPExcel.git",
+    "authors": [
+        {
+            "name": "Diego Drigani",
+            "email": "d.drigani@mvlabs.it",
+            "homepage": "http://www.mvlabs.it/en/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework": "~2.5",
+        "phpoffice/phpexcel": "1.8.*",
+    },    
+    "autoload": {
+        "psr-0": {
+            "MvlabsPHPExcel": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
