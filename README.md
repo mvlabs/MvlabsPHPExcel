@@ -3,6 +3,14 @@ MvlabsPHPExcel
 
 MvlabsPHPExcel is a ZF2 module that allow easy to create, modify and read excel files (including pdf, xlsx, odt) using [PHPOffice/PHPExcel][PHPOffice/PHPExcel] library.
 
+Requirements PHPExcel library
+-----------------------------
+ * PHP version 5.5.0 or higher
+ * PHP extension php_zip enabled (required if you need PHPExcel to handle .xlsx .ods or .gnumeric files)
+ * PHP extension php_xml enabled
+ * PHP extension php_gd2 enabled (optional, but required for exact column width autocalculation)
+
+
 Installation
 ------------
 #### With composer
@@ -40,15 +48,6 @@ Installation
     ```
  
  
- 
- Requirements PHPExcel library
- -----------------------------
- * PHP version 5.5.0 or higher
- * PHP extension php_zip enabled (required if you need PHPExcel to handle .xlsx .ods or .gnumeric files)
- * PHP extension php_xml enabled
- * PHP extension php_gd2 enabled (optional, but required for exact column width autocalculation)
-
-
     
 Usage
 -----
